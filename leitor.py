@@ -16,11 +16,11 @@ class CSV:
                     line_count += 1
                 print(f"linhas processadas {line_count}")
     
-    def escrever_csv(arquivo_csv):
+    def escrever_csv(arquivo_csv, dados):
         with open(arquivo_csv, "w") as csvfile:
             csvwrite = csv.writer(csvfile, ",")
+            csvwrite.writerow(dados)
+        
 
-        codigo = input("Código do Produto")
-        nome = input("Nome do Produto")
 
 
