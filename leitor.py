@@ -15,6 +15,7 @@ class CSV:
                         print(linha)
                     line_count += 1
                 print(f"linhas processadas {line_count}")
+                
     
     def escrever_csv(arquivo_csv, dados):
         with open(arquivo_csv, "w") as csvfile:
