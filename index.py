@@ -4,3 +4,4 @@ arquivo = "Produtos.csv"
 leitor = CSV()
 
 leitor.ler_csv(arquivo)
+
