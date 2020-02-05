@@ -3,7 +3,7 @@ import csv
 class CSV:
         
     def read_csv(file_csv):    
-        with open(arquivo_csv,"r") as csvfile:
+        with open(file_csv,"r") as csvfile:
             spamreader = csv.reader(csvfile, delimiter = ",")
             line_count = 0
             for row in spamreader:
