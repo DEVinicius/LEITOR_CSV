@@ -1,2 +1,2 @@
-Codigo,Nome,PrecoCompra,PrecoVenda,PorcentagemLucro,Quantidade,Marca
-123456,Panela,12,24,100,20,Tramontina
+Codigo,Nome_produto,Preco_compra,Preco_Venda,Lucro,Marca,Quantidade
+42424,Notebook,10,20,100,Samsung,30
