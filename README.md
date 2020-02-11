@@ -5,6 +5,6 @@ para que haja uma facilidade na manipulação dos dados. Há diversas outras bib
 arquivos csv, não obstante, busquei criar minha própria classe, fazendo com que dicionários sejam inseridos e em qualquer arqui-
 vo CSV, esteja ele vazio ou não, eu consiga manipular ele e realizar o trabalho da forma mais simples o possível.
 
-#Inserção de DADOS
+# Inserção de DADOS
 
 A classe criada só aceita dados vindo de dicionários, para que os parâmetros do banco em CSV sejam mantidos.
