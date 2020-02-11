@@ -1,6 +1,6 @@
 import csv
 
-class CSV:
+class WorkCSV:
         
     def read_csv(self, file_csv):    
         with open(file_csv,"r") as csvfile:

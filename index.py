@@ -2,7 +2,7 @@ from leitor import CSV
 
 #Instancia da Classe e criacao da variavel arquivo
 arquivo = 'Produtos.csv'
-leitor = CSV()
+leitor = WorkCSV()
 
 #método para ler o arquivo
 leitor.read_csv(arquivo)
