@@ -26,4 +26,5 @@ Esta função apenas exige que o arquivo.csv seja colocado como parâmetro
 Nesta função dois parâmetros devem ser passados.
 
 1º - O Arquivo .csv
+
 2º - O Dicionário com os dados a serem inseridos, com as chaves possuindo os mesmos nomes que as linhas do arquivo .csv
