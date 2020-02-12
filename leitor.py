@@ -7,14 +7,10 @@ class WorkCSV:
             spamreader = csv.reader(csvfile, delimiter = ",")
             line_count = 0
             for row in spamreader:
-                if line_count == 0:
-                    print(f'{"  ".join(row)}')
-                    line_count += 1
-                else:
-                    for line in row:
-                        print(line)
-                    line_count += 1
-
+               # if line_count == 0:
+                print(f'{"  |".join(row)}')
+                print("")
+                
     
     def write_csv(self, file_csv, data):
         field_name = list()

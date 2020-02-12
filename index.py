@@ -1,4 +1,4 @@
-from leitor import CSV
+from leitor import WorkCSV
 
 #Instancia da Classe e criacao da variavel arquivo
 arquivo = 'Produtos.csv'
